@@ -1,0 +1,39 @@
+
+.mopContainer{
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .mop{
+    background-color: lightgray;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.7;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+
+    .id{
+      color: white;
+      font-weight: bold;
+      padding: 3px;
+      font-size: 8px;
+    }
+    .label{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  .custodian{
+    color: gray;
+    .custodianId{
+
+    }
+  }
+}
